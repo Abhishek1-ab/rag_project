@@ -1,0 +1,8 @@
+.chat { max-width: 600px; margin: 20px auto; font-family: sans-serif; }
+.messages { height: 400px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 8px; }
+.msg { padding: 8px 12px; margin: 6px 0; border-radius: 8px; max-width: 80%; white-space: pre-wrap; }
+.msg.user { background: #d1e7ff; margin-left: auto; color: #000; }
+.msg.bot { background: #eee; color: #000; }
+.inputRow { display: flex; gap: 8px; margin-top: 10px; }
+.inputRow input { flex: 1; padding: 10px; border-radius: 6px; border: 1px solid #ccc; }
+.inputRow button { padding: 10px 16px; border-radius: 6px; cursor: pointer; }
